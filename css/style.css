@@ -1,7 +1,12 @@
 :root{
-    .color1 { #91b6b0 };
-    .color2 { #80a49f };
-    .color3 { #6f938d };
-    .color4 { #5e817c };
-    .color5 { #4d6f6a };
+
+    --fundo-menu-lateral: #1c1b26 ;
+    --fundo-claro: #828da8;
+    --fundo-claro2: #714e33;
+
+    --texto-claro: #1c1b26;
+    --texto-escuro: #3c321b;
+
+    --texto-titulo-claro: #ddb35d;
+    --texto-titulo-escuro: #7c2518;
 }
