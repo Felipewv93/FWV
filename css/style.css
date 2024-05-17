@@ -17,15 +17,15 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    color: var(--texto-escuro);
-    background: var(--fundo-claro);
+    color: var(--texto-titulo-claro);
+    background: var(--texto-titulo-claro);
 }
 a{
-    color: var(--texto-escuro) ;
+    color: var(--texto-titulo-claro) ;
     text-decoration: none;
 }
 a:hover{
-    color: var(--texto-hover);
+    color: var(--fundo-claro);
     text-decoration: none; /* retirar underline */
 }
 h1, h2, h3, h4, h5, h6 {
