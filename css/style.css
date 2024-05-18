@@ -5,20 +5,24 @@
     --fundo-claro: #828da8;
     --fundo-claro2: #714e33;
 
+    --borda-clara: #ddb35d;
+    --borda-escura: #7c2518;
+
     --texto-claro: #828da8;
     --texto-escuro: #1c1b26;
     --texto-hover: #7c2518;
 
     --texto-titulo-claro: #ddb35d;
     --texto-titulo-escuro: #7c2518;
-}
 
+    --sombra-clara: #828da8;
+}
 /* css geral */
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    color: var(--texto-titulo-claro);
-    background: var(--texto-titulo-claro);
+    color: var(--texto-claro);
+    background: var(--fundo-claro);
 }
 a{
     color: var(--texto-titulo-claro) ;
@@ -39,8 +43,51 @@ h1, h2, h3, h4, h5, h6 {
     bottom: 0;
     width: 300px;
     transition: all ease-in-out 0.5s;
-    z-index: 0; /**/
+    z-index: 99; /**/
     padding: 0 15px;
     background: var(--fundo-menu-lateral);
-    overflow-y: auto;
+    overflow-y: auto; /* criar um barra de rolagem vertical */
+}
+#header .perfil img {
+    margin: 15px auto;
+    display: block;
+    width: 200px;
+    border: 2px solid var(--sombra-clara);
+    box-shadow: 0px 0px 25px 0px  rgba(255, 255, 255, 0.5);
+}
+
+#header .perfil h1 {
+    font-size: 24px;
+    margin: 25px;
+    padding: 0;
+    font-weight: 600;
+    text-align: center;
+}
+
+.perfil .social-links i {
+    font-size: 18px;
+    display: inline-block;
+    background: transparent;
+    color: var(--texto-claro);
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 5px;
+    border-radius: 50%;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    transition: 0.3s;
+    box-shadow: 0px 0px 5px 0px var(--sombra-clara);
+}
+.perfil .social-links a:hover,
+.social-links i:hover {
+    font-size: 18px;
+    display: inline-block;
+    background: white;
+    color: black;
+    margin-right: 5px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    box-shadow: 0px 0px 5px 0px var(--sombra-clara);
 }
