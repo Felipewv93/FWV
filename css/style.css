@@ -26,7 +26,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     color: var(--borda-clara);
-    background: var(--texto-branco);
+    background: var(--fundo-claro);
 }
 a{
     color: var(--texto-titulo-claro) ;
@@ -197,7 +197,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero::before {
     content: "";
-    background: rgba(5, 13, 24, 0.250);
+    background: rgba(5, 13, 24, 0.200);
     position: absolute;
     top: 0;
     right: 0;
@@ -212,16 +212,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h1 {
     margin: 0 0 10px 0;
-    font-size: 120px;
+    font-size: 100px;
     font-weight: 550;
     line-height: 100px;
     color: var(--texto-branco);
 }
 #hero p {
-    font-size: 35px;
+    font-size: 30px;
+    color: var(--texto-branco);
+    background: rgba(31, 31, 31, 0.5);
 }
 #hero p span {
-    color: var(--texto-branco);
+    color: var(--cor-detalhes);
     padding-bottom: 5px;
     letter-spacing: 1px;
     border-bottom: 3px solid var(--cor-detalhes);
@@ -235,13 +237,13 @@ h1, h2, h3, h4, h5, h6 {
     #hero h1 {
         font-size: 70px;
         line-height: 45px;
-        align-content: center;
-        justify-content: center;
+        /* align-content: center;
+        justify-content: center; */
     }
     #hero p {
-        padding-left: 50px;
+        /* padding-left: 50px; */
         font-size: 21px;
-        align-content: center;
-        justify-content: center;
+        /* align-content: center;
+        justify-content: center; */
     }
 }
