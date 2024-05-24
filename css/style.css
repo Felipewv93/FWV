@@ -277,3 +277,34 @@ h1, h2, h3, h4, h5, h6 {
         justify-content: center; */
     }
 }
+/* Seções Gerais */
+section {
+    padding: 60px 0;
+    overflow: hidden;
+    background: var(--fundo-claro)
+}
+.section-bg {
+    background: var(--fundo-menu-lateral);
+    color: var(--texto-claro);
+}
+.section-title h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    color: var(--texto-titulo-claro);
+    position: relative;
+}
+.section-title h2::after {
+    content: "";
+    position:absolute;
+    display:block ;
+    width: 50px;
+    height: 3px;
+    background: var(--cor-detalhes);
+    bottom: 0;
+    left: 0;
+}
+.section-title p {
+    margin-bottom: 0;
+}
