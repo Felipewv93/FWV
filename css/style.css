@@ -25,7 +25,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    color: var(--borda-clara);
+    color: var(--texto-escuro);
     background: var(--fundo-claro);
 }
 a{
@@ -193,6 +193,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu li:hover>a i {
     color: var(--cor-detalhes);
 }
+
 /* Menu mobile */
 .mobile-nav-toggle {
     position: fixed;
@@ -218,6 +219,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav-active #header {
     left: 0;
 }
+
 /* hero */
 #hero {
     width: 100%;
@@ -277,6 +279,7 @@ h1, h2, h3, h4, h5, h6 {
         justify-content: center; */
     }
 }
+
 /* Seções Gerais */
 section {
     padding: 60px 0;
@@ -284,15 +287,18 @@ section {
     background: var(--fundo-claro)
 }
 .section-bg {
-    background: var(--fundo-menu-lateral);
-    color: var(--texto-claro);
+    background: var(--texto-opaco);
+    color: var(--texto-branco);
+}
+.section-title {
+    padding-bottom: 30px;
 }
 .section-title h2 {
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 20px;
     padding-bottom: 20px;
-    color: var(--texto-titulo-claro);
+    color: var(--texto-escuro);
     position: relative;
 }
 .section-title h2::after {
@@ -307,4 +313,60 @@ section {
 }
 .section-title p {
     margin-bottom: 0;
+}
+
+/* Sobre */
+.sobre .content h3 {
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--cor-detalhes);
+}
+.sobre .content ul {
+    list-style: none;
+    padding: 0;
+}
+.sobre .content ul li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.sobre .content ul strong {
+    margin-left: 10px;
+}
+.sobre .content ul i {
+    font-size: 20px;
+    color: var(--cor-detalhes);
+    margin-right: 10px;
+    line-height: 0;
+}
+
+/* Conquistas */
+.conquistas {
+    padding-bottom: 30px;
+}
+.conquistas .count-box {
+    padding: 30px;
+    width: 100%;
+}
+.conquistas .count-box i {
+    display: block;
+    font-size: 44px;
+    color: var(--cor-detalhes);
+    float: left;
+    line-height: 0;
+}
+.conquistas .count-box span {
+    font-size: 48px;
+    line-height: 40px;
+    display: block;
+    font-weight: 700;
+    color: var(--texto-escuro);
+    margin-left: 60px;
+}
+
+.conquistas .count-box p {
+    padding: 15px 0 0 0;
+    margin: 0 0 0 60px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--texto-escuro);
 }
