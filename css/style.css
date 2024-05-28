@@ -287,8 +287,8 @@ section {
     background: var(--fundo-claro)
 }
 .section-bg {
-    background: var(--texto-opaco);
-    color: var(--texto-escuro);
+    background: var(--texto-escuro);
+    color: var(--texto-branco);
 }
 .section-title {
     padding-bottom: 30px;
@@ -298,7 +298,7 @@ section {
     font-weight: bold;
     margin-bottom: 20px;
     padding-bottom: 20px;
-    color: var(--texto-escuro);
+    color: var(--texto-branco);
     position: relative;
 }
 .section-title h2::after {
@@ -369,4 +369,33 @@ section {
     margin: 0 0 0 60px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: var(--texto-escuro);
+}
+
+/* Skills // Habilidades // Vendas */
+.skills .progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+}
+.skills .progress .skill {
+    padding: 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+}
+.skills .progress .skill .val {
+    float: right;
+    font-style: normal;
+}
+.skills .progress-bar-bg {
+    background: var(--texto-branco);
+    height: 10px;
+}
+.skills .progress-bar {
+    width: 1px;
+    height: 10px;
+    transition: 3s;
+    background: var(--cor-detalhes);
 }
