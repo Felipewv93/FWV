@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: all ease-in-out 0.5s;
     z-index: 99; /**/
     padding: 0 15px;
-    background: var(--fundo-menu-lateral);
+    background: rgba(0, 0, 50, 1);
     overflow-y: auto; /* criar um barra de rolagem vertical */
 }
 #header .perfil img {
