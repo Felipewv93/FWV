@@ -553,3 +553,14 @@ section {
 .services .icon-box:hover .icon i {
     columns: var(--texto-escuro);
 }
+.services .title {
+    margin-left: 80px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 26px;
+}
+.services .description {
+    margin-left: 80px;
+    line-height: 24px;
+    font-size: 18px;
+}
