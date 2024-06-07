@@ -460,7 +460,7 @@ section {
     line-height: 1;
     font-weight: 600;
     text-transform: uppercase;
-    color: var(--texto-escuro);
+    color: var(--texto-branco);
     transition: all 0.5s ease-in-out;
 }
 .portfolio #portfolio-filters li:hover,
@@ -499,7 +499,7 @@ section {
     color: var(--texto-escuro);
     font-size: 28px;
     text-align: center;
-    background: var(--texto-hover);
+    background: var(--cor-detalhes);
     transition: 0.3s;
     width: 50%;
 }
