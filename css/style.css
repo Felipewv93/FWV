@@ -244,13 +244,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h1 {
     margin: 0 0 10px 0;
-    font-size: 100px;
+    font-size: 90px;
     font-weight: 550;
-    line-height: 100px;
+    line-height: 90px;
     color: var(--texto-branco);
 }
 #hero p {
-    font-size: 30px;
+    font-size: 25px;
     color: var(--texto-branco);
     background: rgba(31, 31, 31, 0.250);
 }
@@ -279,13 +279,13 @@ h1, h2, h3, h4, h5, h6 {
         justify-content: center; */
     }
 }
-@media (min-width: 320px) {
+@media (max-width: 480px) {
     #hero h1 {
-        font-size: 45px;
-        line-height: 35px;
+        font-size: 60px;
+        line-height: 50px;
     }
     #hero p {
-        font-size: 16px;
+        font-size: 18px;
     }
 }
 
