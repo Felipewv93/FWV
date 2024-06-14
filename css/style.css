@@ -60,9 +60,9 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 0;
 }
 .back-to-top:hover {
-    background: var(--texto-branco);
-    color: var(--texto-claro);
+    background: var(--texto-hover);
 }
+
 
 .back-to-top.active {
     visibility: visible;
@@ -163,6 +163,7 @@ h1, h2, h3, h4, h5, h6 {
     white-space: nowrap;
 }
 /* revisão */
+
 .nav-menu a,
 .nav-menu:focus {
     display: flex;
@@ -185,7 +186,6 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     color: var(--borda-clara);
 }
-
 
 .nav-menu a:hover i,
 .nav-menu .active i,
@@ -307,7 +307,7 @@ section {
     font-weight: bold;
     margin-bottom: 20px;
     padding-bottom: 20px;
-    color: var(--texto-branco);
+    color: var(--texto-hover);
     position: relative;
 }
 .section-title h2::after {
@@ -665,18 +665,18 @@ section {
     padding: 30px;
     padding-right: 30px;
 
-    background: var(--fundo-claro);
+    background: var(--fundo-menu-lateral);
     width: 100%;
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 .contato .info i {
     font-size: 20px;
-    color: var(--cor-detalhes);
+    color: var(--texto-escuro);
     float: left;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background: var(--fundo-menu-lateral);
+    background: var(--cor-detalhes);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -687,16 +687,17 @@ section {
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 5px;
-    color: var();
+    color: var(--texto-claro);
 }
 .contato .info p {
     padding: 0 0 10px 60px;
     margin-bottom: 20px;
     font-size: 16px;
+    color: var(--texto-branco);
 }
 .contato .info i:hover {
-    background: var(--texto-branco);
-    color: var();
+    background: var(--texto-claro);
+    color: var(--cor-detalhes);
 }
 .contato .info .fone a:hover {
     color: var(--cor-detalhes);
@@ -704,7 +705,7 @@ section {
 .contato .email-form {
     width: 100%;
     padding: 30px;
-    background: var(--fundo-claro);
+    background: var(--fundo-menu-lateral);
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 .contato .email-form .form-grupo {
@@ -714,6 +715,7 @@ section {
 .contato .email-form label {
     padding-top: 25px;
     padding-bottom: 5px;
+    color: var(--texto-branco);
 }
 .contato .email-form input, 
 .contato .email-form textarea {
@@ -737,14 +739,14 @@ section {
     transition: 0.5s;
 }
 .contato .email-form button[type=submit]:hover {
-    background: var(--texto-escuro);
-    color: var(--texto-branco);
+    background: var(--texto-claro);
+    color: var(--cor-detalhes);
 }
 /* Roda pé */
 #footer {
     padding: 15px;
     color: var(--texto-claro);
-    font-size: 16px;
+    font-size: 14px;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -759,7 +761,7 @@ section {
 #footer .creditos {
     padding-top: 5px;
     text-align: center;
-    font-size: 13px;
+    font-size: 14px;
     color: var(--texto-claro);
 }
 #footer .creditos a{
