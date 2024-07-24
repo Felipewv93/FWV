@@ -2,7 +2,7 @@
 :root{
 
     --fundo-menu-lateral: #1c1b26 ;
-    --fundo-claro: #828da8;
+    --fundo-claro: rgb(219, 219, 219);
     --fundo-claro2: #714e33;
 
     --borda-clara: #f8f8f8;
@@ -303,6 +303,9 @@ section {
 .section-bg {
     background: var(--texto-escuro);
     color: var(--texto-branco);
+}
+.section-bg .section-title h2 {
+    color: rgb(219, 219, 219);
 }
 .section-title {
     padding-bottom: 30px;
